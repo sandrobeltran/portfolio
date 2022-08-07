@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Syne:wght@800&display=swap');
+
+:root{
+  --white: #F7F7F7;
+  --pink: #FF6584;
+  --blue: #A0C4FF;
+  --violet: #BDB2FF;
+  --dark: #121212;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all .3s;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--dark);
+}
+
+body #__next {
+  height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section {
+  width: 100%;
+  min-height: fit-content;
+  max-height: fit-content;
+  overflow: hidden;
+}
+ion-icon{
+  pointer-events: none;
+}
